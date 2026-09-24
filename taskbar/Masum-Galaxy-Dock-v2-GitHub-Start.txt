@@ -1,0 +1,61 @@
+styleConstants:
+  - GalaxyGlass=<WindhawkBlur BlurAmount="22" TintColor="#B5091535" />
+  - GalaxyLine=#9259D8FF
+  - TileBase=#3A14274A
+  - TileHover=#9B14546C
+  - TileActive=#A327265E
+  - TileEdge=#5867DDFC
+  - TileHoverEdge=#C567E8FF
+controlStyles:
+  - target: Taskbar.TaskbarFrame > Grid#RootGrid > Taskbar.TaskbarBackground > Grid > Rectangle#BackgroundFill
+    styles:
+      - Fill:=$GalaxyGlass
+  - target: Rectangle#BackgroundStroke
+    styles:
+      - Fill=$GalaxyLine
+  - target: Taskbar.TaskbarFrame > Grid#RootGrid
+    styles:
+      - CornerRadius=14,14,0,0
+      - Margin=6,0,6,0
+      - BorderThickness=0,1,0,0
+      - BorderBrush=$GalaxyLine
+  - target: Taskbar.ExperienceToggleButton, Taskbar.SearchBoxButton, Taskbar.TaskListButton
+    styles:
+      - CornerRadius=11
+  - target: Grid#IconPanel@CommonStates > Border#BackgroundElement, Taskbar.TaskListLabeledButtonPanel@CommonStates > Border#BackgroundElement
+    styles:
+      - CornerRadius=10
+      - Background=$TileBase
+      - Background@PointerOver=$TileHover
+      - Background@Pressed=$TileActive
+      - BorderThickness=1
+      - BorderBrush=$TileEdge
+      - BorderBrush@PointerOver=$TileHoverEdge
+  - target: Taskbar.TaskListButtonPanel@CommonStates > Grid > Border#BackgroundElement, Taskbar.TaskListButtonPanel@CommonStates > Border#BackgroundElement
+    styles:
+      - CornerRadius=10
+      - Background=$TileBase
+      - Background@PointerOver=$TileHover
+      - BorderThickness=1
+      - BorderBrush=$TileEdge
+      - BorderBrush@PointerOver=$TileHoverEdge
+  - target: Grid#IconPanel@RunningIndicatorStates > Rectangle#RunningIndicator, Taskbar.TaskListLabeledButtonPanel@RunningIndicatorStates > Rectangle#RunningIndicator
+    styles:
+      - Fill=#FF55DBFF
+      - Fill@ActiveRunningIndicator=#FFB183FF
+      - Height=3
+      - Width=15
+      - Width@ActiveRunningIndicator=24
+  - target: Taskbar.ExperienceToggleButton#LaunchListButton[AutomationProperties.AutomationId=StartButton] > Taskbar.TaskListButtonPanel > Grid > Border#BackgroundElement, Taskbar.ExperienceToggleButton#LaunchListButton[AutomationProperties.AutomationId=StartButton] > Taskbar.TaskListButtonPanel > Border#BackgroundElement
+    styles:
+      - Background:=<ImageBrush Stretch="Uniform" ImageSource="https://raw.githubusercontent.com/gitwithmasum/Galaxy-Desktop-Themes/main/taskbar/assets/galaxy-start.png" />
+  - target: Taskbar.ExperienceToggleButton#LaunchListButton[AutomationProperties.AutomationId=StartButton] > Taskbar.TaskListButtonPanel > Grid > Microsoft.UI.Xaml.Controls.AnimatedVisualPlayer#Icon, Taskbar.ExperienceToggleButton#LaunchListButton[AutomationProperties.AutomationId=StartButton] > Taskbar.TaskListButtonPanel > Microsoft.UI.Xaml.Controls.AnimatedVisualPlayer#Icon
+    styles:
+      - Visibility=Collapsed
+  - target: Border#OverflowFlyoutBackgroundBorder
+    styles:
+      - Background:=$GalaxyGlass
+      - CornerRadius=15
+  - target: Taskbar.TaskbarBackground#HoverFlyoutBackgroundControl > Grid > Rectangle#BackgroundFill
+    styles:
+      - Fill:=$GalaxyGlass

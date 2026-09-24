@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#091626">
+  <title>New Tab</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="newtab.js" defer></script>
+</head>
+<body>
+  <div class="slides" aria-hidden="true"><div id="slide-a" class="slide active"></div><div id="slide-b" class="slide"></div><div id="custom-photo" class="slide"></div></div>
+  <canvas id="particles" aria-hidden="true"></canvas>
+  <main class="page">
+    <div class="top-accent" aria-hidden="true"><span class="beacon"></span> PERSONAL SPACE <span class="accent-rule"></span> 01 / ∞</div>
+    <section class="dock" aria-label="Your shortcuts">
+      <div id="shortcuts" class="shortcuts"></div>
+      <button id="add" class="shortcut add" type="button" aria-label="Add shortcut"><span class="circle plus">+</span><span class="label">Add shortcut</span></button>
+    </section>
+    <div class="identity" aria-label="Masum Billah">
+      <span class="identity-kicker"><span class="beacon"></span> SYSTEM ONLINE <span class="identity-line"></span> 2026</span>
+      <strong>MASUM <span>BILLAH</span></strong>
+      <span class="identity-sub">EXPLORE <i>·</i> BUILD <i>·</i> BEYOND</span>
+    </div>
+    <div class="scene-controls" aria-label="Background slideshow controls">
+      <button id="previous-scene" type="button" aria-label="Previous background">‹</button>
+      <span id="scene-caption" aria-live="off">01 / 12 · MOON</span>
+      <button id="next-scene" type="button" aria-label="Next background">›</button>
+    </div>
+    <button id="settings" class="settings" type="button" aria-label="Customize new tab" title="Customize new tab">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 15.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7Zm8-3.5a8 8 0 0 0-.08-1.12l1.86-1.45-1.8-3.12-2.2.88a8 8 0 0 0-1.94-1.12L15.5 3h-3.6l-.35 2.36a8 8 0 0 0-1.94 1.12l-2.2-.88-1.8 3.12 1.86 1.45a8 8 0 0 0 0 2.24l-1.86 1.45 1.8 3.12 2.2-.88a8 8 0 0 0 1.94 1.12L11.9 21h3.6l.35-2.36a8 8 0 0 0 1.94-1.12l2.2.88 1.8-3.12-1.86-1.45c.05-.37.08-.74.08-1.12Z" transform="translate(-1.7 0)"/></svg>
+    </button>
+  </main>
+  <dialog id="editor">
+    <form id="editor-form">
+      <div class="dialog-title"><h1 id="editor-title">Add shortcut</h1><button type="button" class="close" data-close aria-label="Close">×</button></div>
+      <label>Name<input id="name" name="name" maxlength="24" placeholder="Example: Portfolio" required autocomplete="off"></label>
+      <label>Website URL<input id="url" name="url" type="url" placeholder="https://example.com" required autocomplete="off"></label>
+      <p class="hint">Use an https:// or http:// website address.</p>
+      <p id="error" class="error" role="alert"></p>
+      <div class="actions"><button id="delete" class="danger" type="button" hidden>Delete</button><span class="spacer"></span><button type="button" class="secondary" data-close>Cancel</button><button type="submit" class="primary">Save</button></div>
+    </form>
+  </dialog>
+  <dialog id="preferences">
+    <div class="dialog-title"><h1>Customize</h1><button type="button" class="close" data-close aria-label="Close">×</button></div>
+    <p>The 12 space scenes change every 5 seconds. You can pause them or choose your own photo.</p>
+    <label class="file-button" for="wallpaper">Choose photo</label><input id="wallpaper" type="file" accept="image/png,image/jpeg,image/webp" hidden>
+    <button id="reset-wallpaper" class="secondary" type="button">Restore space slideshow</button>
+    <label class="setting-row" for="slideshow-toggle"><span>Rotate every 5 seconds</span><input id="slideshow-toggle" type="checkbox" checked></label>
+    <label class="setting-row" for="particle-toggle"><span>Galaxy particles</span><input id="particle-toggle" type="checkbox" checked></label>
+    <p id="wallpaper-status" class="hint" role="status"></p>
+  </dialog>
+</body>
+</html>

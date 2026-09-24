@@ -7,7 +7,7 @@ A matching Windows 11 taskbar, animated star overlay, and 12-scene Chrome new ta
 | Folder | What it does | Requires |
 | --- | --- | --- |
 | `taskbar/` | Neon glass taskbar, glow around native app icons, active app indicator, original galaxy Start icon | Windhawk + Windows 11 Taskbar Styler |
-| `rainmeter/` | 32 twinkling stars and small `MASUM BILLAH` label over a bottom taskbar | Rainmeter |
+| `rainmeter/` | Animated taskbar stars and a separate Galaxy Command Center with clock, date, system stats, weather and shortcuts | Rainmeter |
 | `chrome-new-tab/` | 12 space scenes rotating every 5 seconds, particles and shortcut editor | Chrome |
 
 ## Set up the taskbar
@@ -25,6 +25,16 @@ App icons retain their own images and usual click actions. This theme styles the
 2. Copy the `rainmeter/MasumGalaxyTaskbarStars` folder into Rainmeter's Skins folder (usually `Documents\Rainmeter\Skins`).
 3. Right-click Rainmeter's tray icon, select **Refresh all**, then in **Manage** load `MasumGalaxyTaskbarStars > TaskbarStars.ini`.
 4. In the skin file, edit `NameText=MASUM BILLAH` and refresh if you want another name. The stars sit above the bar and let mouse clicks pass through.
+
+## Install Galaxy Command Center
+
+1. Copy `rainmeter/MasumGalaxyCommandCenter` into your Rainmeter Skins folder (usually `Documents\Rainmeter\Skins`). Keep `CommandCenter.ini` inside that folder.
+2. Right-click the Rainmeter tray icon and choose **Refresh all**, then **Manage > MasumGalaxyCommandCenter > CommandCenter.ini > Load**. This is a separate skin, so the taskbar stars can stay loaded at the same time.
+3. The dashboard appears near the upper left of your primary display. Drag it anywhere you like; refreshing resets the starting position to `24,80`.
+4. Edit `[Variables]` at the top of `CommandCenter.ini` to change the name, weather city and coordinates, or the four shortcut links. Save and refresh the skin.
+5. Live temperature is fetched from [Open-Meteo](https://open-meteo.com/) every 15 minutes; it needs an internet connection. The default location is **Dhaka**. CPU, RAM, battery and time are read locally. On a desktop PC without a battery, the battery row may be unavailable.
+
+No additional Rainmeter plugins or API keys are required. **Unload** the skin in Rainmeter Manage to remove the dashboard.
 
 ## Install the Chrome new tab
 

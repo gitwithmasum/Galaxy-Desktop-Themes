@@ -16,6 +16,11 @@ A matching Windows 11 taskbar, animated star overlay, and 12-scene Chrome new ta
 | `lock-screen/` | Matching Moon and galaxy lock-screen wallpapers for Windows and Android | Windows 11 or Android |
 | `rgb-profile/` | Galaxy lighting palette, interactive keyboard preview, and device-aware setup guide | Browser; compatible RGB device/software for actual lighting |
 | `clipboard/` | F10 searchable, memory-only clipboard history and quick paste panel | AutoHotkey v2 on Windows 11 |
+| `screen-text/` | Ctrl+Alt+S OCR shortcut for copying text from images, PDFs or video | PowerToys Text Extractor + AutoHotkey v2 |
+
+## Ctrl+Alt+S Screen Text
+
+Enable Microsoft PowerToys **Text Extractor** with its default **Win+Shift+T** activation key, then run [`screen-text/Masum-Galaxy-Screen-Text.ahk`](screen-text/Masum-Galaxy-Screen-Text.ahk) to capture text via **Ctrl+Alt+S**. Drag across the text; the recognized text goes to your clipboard, including the F10 Galaxy Clipboard history if it is running. See the [Bengali setup guide](screen-text/SETUP-BN.md). You can also configure Ctrl+Alt+S directly in PowerToys and skip the AutoHotkey script.
 
 ## F10 Galaxy Clipboard
 

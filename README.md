@@ -15,6 +15,11 @@ A matching Windows 11 taskbar, animated star overlay, and 12-scene Chrome new ta
 | `bridge/` | Private Wi-Fi laptop ↔ Android text, link and file exchange with PIN | Python 3.9+ on Windows; phone browser |
 | `lock-screen/` | Matching Moon and galaxy lock-screen wallpapers for Windows and Android | Windows 11 or Android |
 | `rgb-profile/` | Galaxy lighting palette, interactive keyboard preview, and device-aware setup guide | Browser; compatible RGB device/software for actual lighting |
+| `clipboard/` | F10 searchable, memory-only clipboard history and quick paste panel | AutoHotkey v2 on Windows 11 |
+
+## F10 Galaxy Clipboard
+
+Run [`clipboard/Masum-Galaxy-Clipboard.ahk`](clipboard/Masum-Galaxy-Clipboard.ahk) with AutoHotkey v2. Copy text or links, press **F10**, search the latest 30 items, and press **Enter** to paste into the previous window. History stays in memory and can be cleared in the panel. See the [Bengali setup guide](clipboard/SETUP-BN.md) for privacy and compact keyboard instructions.
 
 ## Matching RGB profile
 

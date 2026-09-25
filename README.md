@@ -12,6 +12,11 @@ A matching Windows 11 taskbar, animated star overlay, and 12-scene Chrome new ta
 | `launcher/` | F8 Galaxy Launcher for apps, folders, links and web search | AutoHotkey v2 |
 | `android-theme/` | Matching portrait home and lock wallpapers, 16 cyan/violet PNG icons and optional classic video wallpaper | Android phone; custom image icons need a compatible launcher |
 | `modes/` | F9 Study / Coding / Gaming desktop profiles, wallpapers, shortcuts and optional timers | AutoHotkey v2 on Windows 11 |
+| `bridge/` | Private Wi-Fi laptop ↔ Android text, link and file exchange with PIN | Python 3.9+ on Windows; phone browser |
+
+## Laptop–phone bridge
+
+Extract the [`bridge/` folder](bridge/SETUP-BN.md) and double-click `START-BRIDGE.bat` on your Windows laptop. A local IP address and a new PIN for each run appear in its window. Open the address on your Android phone on the same private Wi-Fi; transfer notes, links and files up to 25 MB in either direction. Uploaded items stay in a folder on your laptop. See the [Bengali setup guide](bridge/SETUP-BN.md) for network troubleshooting, storage and safe use.
 
 ## Study / Coding / Gaming modes
 

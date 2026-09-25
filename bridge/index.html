@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#080f22">
+  <title>Galaxy Bridge · Masum Billah</title>
+  <link rel="stylesheet" href="/style.css">
+  <script defer src="/app.js"></script>
+</head>
+<body>
+  <div class="stars" aria-hidden="true"></div>
+  <div class="shell">
+    <header class="topbar">
+      <div class="brand"><span class="brand-mark">✦</span><span>MASUM <strong>BILLAH</strong><small>GALAXY / BRIDGE</small></span></div>
+      <span class="status"><span class="dot"></span> LOCAL NETWORK</span>
+    </header>
+
+    <main>
+      <section class="hero">
+        <p class="eyebrow">ONE SPACE · TWO DEVICES</p>
+        <h1>Your laptop and phone,<br><em>in the same orbit.</em></h1>
+        <p class="intro">Send links, notes and files across your private Wi-Fi. No account or cloud upload.</p>
+      </section>
+
+      <section id="unlock" class="glass unlock" hidden>
+        <div class="section-kicker">01 / AUTHENTICATE</div>
+        <h2>Connect to your laptop</h2>
+        <p>Enter the six-digit PIN shown in the Galaxy Bridge window on your laptop.</p>
+        <form id="login-form" class="login-row">
+          <label class="sr-only" for="pin">Six-digit PIN</label>
+          <input id="pin" inputmode="numeric" pattern="[0-9]{6}" autocomplete="one-time-code" maxlength="6" placeholder="000000" required>
+          <button type="submit">UNLOCK <span>↗</span></button>
+        </form>
+        <p id="login-message" class="feedback" role="alert"></p>
+      </section>
+
+      <div id="workspace" hidden>
+        <div class="section-heading"><div><span class="section-kicker">02 / EXCHANGE</span><h2>Transfer station</h2></div><button id="logout" class="subtle">LOCK BRIDGE</button></div>
+        <div class="grid">
+          <section class="glass composer">
+            <div class="card-icon">⌘</div><h3>Send text or a link</h3>
+            <p>Write on either device. It appears on both screens.</p>
+            <form id="note-form">
+              <label class="sr-only" for="note">Text or link</label>
+              <textarea id="note" maxlength="4000" rows="5" placeholder="Paste a link, jot down an idea, or send a quick note..."></textarea>
+              <button type="submit" class="wide">SEND TO BRIDGE <span>↗</span></button>
+            </form>
+          </section>
+          <section class="glass composer">
+            <div class="card-icon">⇧</div><h3>Transfer a file</h3>
+            <p>Choose a file from your phone or laptop. Maximum 25 MB.</p>
+            <form id="file-form">
+              <label class="dropzone" for="file"><span>✦</span><strong>Choose a file</strong><small>Photo, PDF, ZIP or any file up to 25 MB</small></label>
+              <input id="file" type="file" name="file" required>
+              <div id="file-name" class="selected-file">No file selected</div>
+              <button type="submit" class="wide">UPLOAD FILE <span>↗</span></button>
+            </form>
+          </section>
+        </div>
+        <p id="action-message" class="feedback" role="status"></p>
+        <div class="section-heading history-head"><div><span class="section-kicker">03 / RECENT</span><h2>Shared across devices</h2></div><button id="refresh" class="subtle">↻ REFRESH</button></div>
+        <div id="items" class="items" aria-live="polite"></div>
+      </div>
+    </main>
+    <footer><span>✦ MASUM BILLAH</span><span>KEEP THE LAPTOP WINDOW OPEN · PRIVATE WI-FI ONLY</span></footer>
+  </div>
+</body>
+</html>

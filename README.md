@@ -11,6 +11,11 @@ A matching Windows 11 taskbar, animated star overlay, and 12-scene Chrome new ta
 | `chrome-new-tab/` | 12 space scenes rotating every 5 seconds, particles and shortcut editor | Chrome |
 | `launcher/` | F8 Galaxy Launcher for apps, folders, links and web search | AutoHotkey v2 |
 | `android-theme/` | Matching portrait home and lock wallpapers, 16 cyan/violet PNG icons and optional classic video wallpaper | Android phone; custom image icons need a compatible launcher |
+| `modes/` | F9 Study / Coding / Gaming desktop profiles, wallpapers, shortcuts and optional timers | AutoHotkey v2 on Windows 11 |
+
+## Study / Coding / Gaming modes
+
+Install AutoHotkey v2, then run [`modes/Masum-Galaxy-Modes.ahk`](modes/Masum-Galaxy-Modes.ahk) with its `wallpapers` folder next to it. Press **F9** for the panel, or **Ctrl+Alt+1 / 2 / 3** to choose Study, Coding or Gaming. Profiles change wallpaper and provide relevant shortcuts and optional focus timers. The Gaming button opens Windows Game Mode settings; it does not silently change the system's Game Mode setting. See the [Bengali setup guide](modes/SETUP-BN.md) for startup and restoration.
 
 ## Matching Android theme
 

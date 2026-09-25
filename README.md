@@ -10,6 +10,11 @@ A matching Windows 11 taskbar, animated star overlay, and 12-scene Chrome new ta
 | `rainmeter/` | Animated taskbar stars and a separate Galaxy Command Center with clock, date, system stats, weather and shortcuts | Rainmeter |
 | `chrome-new-tab/` | 12 space scenes rotating every 5 seconds, particles and shortcut editor | Chrome |
 | `launcher/` | F8 Galaxy Launcher for apps, folders, links and web search | AutoHotkey v2 |
+| `android-theme/` | Matching portrait home and lock wallpapers, 16 cyan/violet PNG icons and optional classic video wallpaper | Android phone; custom image icons need a compatible launcher |
+
+## Matching Android theme
+
+The [Android theme](android-theme/SETUP-BN.md) includes separate home and lock wallpapers that match the desktop's moon, stars and violet nebula. Its 16 original icon PNGs can be assigned individually in a launcher that supports user image icons. The animated video is optional and only works where the phone's wallpaper picker supports video. See the Bengali guide for the exact files, setup and removal.
 
 ## Install the one-key launcher
 

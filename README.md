@@ -13,6 +13,11 @@ A matching Windows 11 taskbar, animated star overlay, and 12-scene Chrome new ta
 | `android-theme/` | Matching portrait home and lock wallpapers, 16 cyan/violet PNG icons and optional classic video wallpaper | Android phone; custom image icons need a compatible launcher |
 | `modes/` | F9 Study / Coding / Gaming desktop profiles, wallpapers, shortcuts and optional timers | AutoHotkey v2 on Windows 11 |
 | `bridge/` | Private Wi-Fi laptop ↔ Android text, link and file exchange with PIN | Python 3.9+ on Windows; phone browser |
+| `lock-screen/` | Matching Moon and galaxy lock-screen wallpapers for Windows and Android | Windows 11 or Android |
+
+## Galaxy lock screen
+
+Set `lock-screen/windows/Galaxy-Lock-Windows.jpg` in Windows **Settings → Personalization → Lock screen → Picture**. Set `lock-screen/android/Galaxy-Lock-Android.jpg` as your phone's **Lock screen** wallpaper through Gallery or Wallpaper settings. PNG originals and detailed [Bengali setup steps](lock-screen/SETUP-BN.md) are also included. These are still images, so no extra app is needed.
 
 ## Laptop–phone bridge
 

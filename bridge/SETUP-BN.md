@@ -21,6 +21,7 @@ Laptop-এর `C:\Users\<your-user>\Masum-Galaxy-Bridge\files` folder-এ upload
 - দুই ডিভাইস একই private Wi-Fi-তে আছে কি না যাচাই করো; guest Wi-Fi-তে device isolation থাকলে তারা একে অপরকে দেখতে পায় না।
 - কালো window খোলা রাখো। নতুন করে চালু করলে **নতুন PIN** নিতে হবে। Laptop-এর local IP বদলালে **Phone** address-ও বদলাতে পারে।
 - Windows Firewall-এ Python-কে **Private** network-এ allow করো; port 8765 অন্য software ব্যবহার করলে bridge চালু হবে না।
+- **Laptop-এ page চলে, ফোনে “Site can't be reached”:** ফোনের Wi-Fi IP যদি laptop-এর মতো `192.168.0.xxx` হয়, `FIX-PHONE-CONNECTION.bat`-এ **right-click → Run as administrator** করো। এটি শুধু **Private network-এর local subnet** থেকে Bridge-এর TCP port 8765-এ সংযোগের rule যোগ করে; Public network-এ খোলে না। Wi-Fi profile Public দেখালে Windows **Settings → Network & internet → Wi-Fi → connected network → Network profile → Private** বেছে নাও। তারপর ফোনে আবার কালো window-র বর্তমান **Phone** address খোলো।
 - ফোনে VPN চালু থাকলে সাময়িক বন্ধ করে আবার চেষ্টা করো।
 
 ## নিরাপত্তা ও বন্ধ করা
@@ -28,5 +29,7 @@ Laptop-এর `C:\Users\<your-user>\Masum-Galaxy-Bridge\files` folder-এ upload
 এটি **local HTTP**—যোগাযোগ encrypted নয়। নিজের বিশ্বাসযোগ্য private Wi-Fi-তেই ব্যবহার করো; public hotspot বা সংবেদনশীল password/financial নথি পাঠিও না। PIN স্ক্রিনে অন্যকে দেখিও না। Link internet-এ খোলা যেতে পারে, কিন্তু Bridge নিজে তোমার file cloud-এ পাঠায় না।
 
 Bridge বন্ধ করতে laptop-এর কালো window-তে **Ctrl+C** চাপো। `START-BRIDGE.bat` startup-এ নিজে থেকে যোগ করা হয় না। সব জমা file সরাতে আগে প্রয়োজনীয়গুলি অন্যত্র copy করো, তারপর `Masum-Galaxy-Bridge` folder delete করো।
+
+Repair file দিয়ে যোগ করা firewall rule সরাতে **PowerShell as administrator**-এ `Remove-NetFirewallRule -Name MasumGalaxyBridge8765` চালাও।
 
 GitHub: https://github.com/gitwithmasum/Galaxy-Desktop-Themes

@@ -9,6 +9,11 @@ A matching Windows 11 taskbar, animated star overlay, and 12-scene Chrome new ta
 | `taskbar/` | Neon glass taskbar, glow around native app icons, active app indicator, original galaxy Start icon | Windhawk + Windows 11 Taskbar Styler |
 | `rainmeter/` | Animated taskbar stars and a separate Galaxy Command Center with clock, date, system stats, weather and shortcuts | Rainmeter |
 | `chrome-new-tab/` | 12 space scenes rotating every 5 seconds, particles and shortcut editor | Chrome |
+| `launcher/` | F8 Galaxy Launcher for apps, folders, links and web search | AutoHotkey v2 |
+
+## Install the one-key launcher
+
+Install [AutoHotkey v2](https://www.autohotkey.com/), then double-click [`launcher/Masum-Galaxy-Launcher.ahk`](launcher/Masum-Galaxy-Launcher.ahk). Press **F8** to open it, type to filter Start Menu apps or your shortcuts, use **↑/↓** and **Enter** to launch, and **Esc** to close. Search queries can open a browser search; the Windows file search entry opens Windows Search. It runs independently of Rainmeter and Windhawk. See the [Bengali setup guide](launcher/SETUP-BN.md) for customization, startup, and removal.
 
 ## Set up the taskbar
 

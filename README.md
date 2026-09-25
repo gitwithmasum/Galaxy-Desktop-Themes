@@ -14,6 +14,11 @@ A matching Windows 11 taskbar, animated star overlay, and 12-scene Chrome new ta
 | `modes/` | F9 Study / Coding / Gaming desktop profiles, wallpapers, shortcuts and optional timers | AutoHotkey v2 on Windows 11 |
 | `bridge/` | Private Wi-Fi laptop ↔ Android text, link and file exchange with PIN | Python 3.9+ on Windows; phone browser |
 | `lock-screen/` | Matching Moon and galaxy lock-screen wallpapers for Windows and Android | Windows 11 or Android |
+| `rgb-profile/` | Galaxy lighting palette, interactive keyboard preview, and device-aware setup guide | Browser; compatible RGB device/software for actual lighting |
+
+## Matching RGB profile
+
+Open [`rgb-profile/preview.html`](rgb-profile/preview.html) for five animated color previews, then use the [Bengali setup guide](rgb-profile/SETUP-BN.md) to set matching colors on compatible RGB hardware. The JSON is a palette reference, not a device-driver import file. ONIKUMA G55 software control has not been confirmed.
 
 ## Galaxy lock screen
 

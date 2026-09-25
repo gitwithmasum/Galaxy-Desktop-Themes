@@ -1,0 +1,12 @@
+{
+  "name": "Masum Galaxy RGB",
+  "version": 1,
+  "note": "Design reference; not an importable device-driver profile. Hardware support is required.",
+  "profiles": {
+    "moonlight": {"effect": "solid", "brightness_percent": 40, "color": "#54D8FF"},
+    "nebula": {"effect": "breathing", "brightness_percent": 55, "colors": ["#44D8FF", "#8065FF", "#C067F5"], "speed": "slow"},
+    "meteor": {"effect": "wave", "brightness_percent": 65, "colors": ["#152A69", "#36D7FF", "#9254FF"], "speed": "medium"},
+    "focus": {"effect": "solid", "brightness_percent": 25, "color": "#638DFF"},
+    "gaming": {"effect": "wave", "brightness_percent": 75, "colors": ["#12D4FC", "#A244FF"], "speed": "medium"}
+  }
+}

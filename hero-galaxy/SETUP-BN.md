@@ -1,6 +1,6 @@
 # Masum Hero Galaxy — New Tab + Animated Wallpaper
 
-দশটি sci-fi emblem scene: Thor, Iron Man, Captain America, Hulk, Loki, Doctor Strange, Spider-Man, Black Panther, Vibranium এবং The Witcher। প্রতি ৫ সেকেন্ডে scene বদলায়; ধীরে zoom, fade ও তারার animation আছে। এটি character portrait photo নয়: মূল চরিত্রের চেনা রঙ ও motif ব্যবহার করে তৈরি original vector emblem art। Galaxy landscape background আগের New Tab project থেকে এসেছে।
+দশটি sci-fi emblem scene: Thor, Iron Man, Captain America, Hulk, Loki, Doctor Strange, Spider-Man, Black Panther, Vibranium এবং The Witcher। প্রতি ৫ সেকেন্ডে scene বদলায়; ধীরে zoom, fade ও তারার animation আছে। এখন প্রতিটি scene-এ আলাদা চলমান power effect আছে: Thor-এর lightning, Iron Man-এর repulsor, Captain-এর shield, Hulk-এর shockwave, Loki-এর illusion, Doctor Strange-এর portal, Spider-Man-এর web, Black Panther-এর kinetic claws, Vibranium core এবং Witcher-এর sword/Sign। এটি character portrait photo নয়: মূল চরিত্রের চেনা রঙ ও motif ব্যবহার করে তৈরি original vector emblem art। Galaxy landscape background আগের New Tab project থেকে এসেছে।
 
 ## Chrome New Tab
 

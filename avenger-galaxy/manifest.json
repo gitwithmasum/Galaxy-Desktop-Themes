@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Masum Hero Galaxy New Tab",
+  "name": "Masum Avenger Galaxy New Tab",
   "description": "Ten animated sci-fi hero emblems with a rotating galaxy background.",
   "version": "1.0.0",
   "chrome_url_overrides": {"newtab": "newtab.html"}

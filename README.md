@@ -17,6 +17,11 @@ A matching Windows 11 taskbar, animated star overlay, and 12-scene Chrome new ta
 | `rgb-profile/` | Galaxy lighting palette, interactive keyboard preview, and device-aware setup guide | Browser; compatible RGB device/software for actual lighting |
 | `clipboard/` | F10 searchable, memory-only clipboard history and quick paste panel | AutoHotkey v2 on Windows 11 |
 | `screen-text/` | Ctrl+Alt+S OCR shortcut for copying text from images, PDFs or video | PowerToys Text Extractor + AutoHotkey v2 |
+| `live-wallpaper/` | 12 New Tab space scenes rotating every five seconds with animated particles | Lively Wallpaper on Windows |
+
+## Galaxy 12 Worlds live wallpaper
+
+The [`live-wallpaper/`](live-wallpaper/SETUP-BN.md) folder turns the same 12 New Tab scenes into an animated Windows desktop background. Extract the ZIP, keep `index.html` beside the `scenes` folder, and add the HTML file in Lively Wallpaper. See the Bengali setup guide for installation and troubleshooting.
 
 ## Ctrl+Alt+S Screen Text
 

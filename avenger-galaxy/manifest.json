@@ -1,7 +1,23 @@
 {
   "manifest_version": 3,
   "name": "Masum Avenger Galaxy New Tab",
-  "description": "Ten animated sci-fi hero emblems with a rotating galaxy background.",
-  "version": "1.0.0",
-  "chrome_url_overrides": {"newtab": "newtab.html"}
+  "description": "Rotating hero galaxy New Tab and optional search-result Galaxy overlay.",
+  "version": "1.1.0",
+  "chrome_url_overrides": {
+    "newtab": "newtab.html"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.google.com/search*",
+        "https://www.google.com.bd/search*",
+        "https://www.bing.com/search*",
+        "https://duckduckgo.com/*"
+      ],
+      "js": [
+        "results-theme.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ]
 }

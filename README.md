@@ -18,6 +18,11 @@ A matching Windows 11 taskbar, animated star overlay, and 12-scene Chrome new ta
 | `clipboard/` | F10 searchable, memory-only clipboard history and quick paste panel | AutoHotkey v2 on Windows 11 |
 | `screen-text/` | Ctrl+Alt+S OCR shortcut for copying text from images, PDFs or video | PowerToys Text Extractor + AutoHotkey v2 |
 | `live-wallpaper/` | 12 New Tab space scenes rotating every five seconds with animated particles | Lively Wallpaper on Windows |
+| `avenger-galaxy/` | Optional 10-scene New Tab, Galaxy search console, search-result overlay, and live wallpaper | Chrome + Lively Wallpaper for desktop animation |
+
+## Avenger Galaxy search
+
+The optional [`avenger-galaxy/`](avenger-galaxy/SETUP-BN.md) extension has a futuristic New Tab search console with Google, Bing, and DuckDuckGo selection. A small removable Galaxy overlay appears on their search results. The same scenes run as a Lively desktop wallpaper. This is separate from the original 12-scene space New Tab; enable only one new-tab extension at a time.
 
 ## Galaxy 12 Worlds live wallpaper
 

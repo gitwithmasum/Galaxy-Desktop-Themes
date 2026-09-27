@@ -1,0 +1,30 @@
+{
+  "manifest_version": 3,
+  "version": "1.0.0",
+  "name": "Masum Galaxy Glass — Chrome Theme",
+  "description": "A calm macOS-inspired dark glass palette for Chrome tabs and toolbar, matched to Galaxy Desktop.",
+  "theme": {
+    "images": {
+      "theme_frame": "images/frame.png",
+      "theme_toolbar": "images/toolbar.png"
+    },
+    "colors": {
+      "frame": [12, 19, 39],
+      "frame_inactive": [8, 14, 30],
+      "toolbar": [23, 35, 57],
+      "tab_text": [232, 246, 255],
+      "tab_background_text": [165, 187, 210],
+      "tab_background_text_inactive": [131, 151, 176],
+      "bookmark_text": [207, 225, 243],
+      "omnibox_background": [11, 25, 44],
+      "omnibox_text": [237, 247, 255],
+      "button_background": [23, 35, 57],
+      "ntp_background": [5, 11, 25],
+      "ntp_text": [226, 243, 255],
+      "ntp_link": [100, 214, 255]
+    },
+    "tints": {
+      "buttons": [-1, -1, 0.75]
+    }
+  }
+}

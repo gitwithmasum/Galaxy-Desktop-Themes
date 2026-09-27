@@ -19,6 +19,11 @@ A matching Windows 11 taskbar, animated star overlay, and 12-scene Chrome new ta
 | `screen-text/` | Ctrl+Alt+S OCR shortcut for copying text from images, PDFs or video | PowerToys Text Extractor + AutoHotkey v2 |
 | `live-wallpaper/` | 12 New Tab space scenes rotating every five seconds with animated particles | Lively Wallpaper on Windows |
 | `avenger-galaxy/` | Optional 10-scene New Tab, Galaxy search console, search-result overlay, and live wallpaper | Chrome + Lively Wallpaper for desktop animation |
+| `chrome-theme/` | macOS-inspired dark Galaxy tab strip, toolbar, and address-bar palette | Chrome theme; compatible with either New Tab extension |
+
+## Galaxy Glass Chrome theme
+
+Install the separate [`chrome-theme/`](chrome-theme/SETUP-BN.md) folder through Chrome's **Load unpacked**. It changes browser colors while the New Tab extension controls the page itself. The Bengali guide explains installation and reset.
 
 ## Avenger Galaxy search
 

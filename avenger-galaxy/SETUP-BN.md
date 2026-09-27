@@ -1,6 +1,6 @@
 # Masum Avenger Galaxy — New Tab + Animated Wallpaper
 
-দশটি sci-fi emblem scene: Thor, Iron Man, Captain America, Hulk, Loki, Doctor Strange, Spider-Man, Black Panther, Vibranium এবং The Witcher। প্রতি ৫ সেকেন্ডে scene বদলায়; ধীরে zoom, fade ও তারার animation আছে। এখন প্রতিটি scene-এ আলাদা চলমান power effect আছে: Thor-এর lightning, Iron Man-এর repulsor, Captain-এর shield, Hulk-এর shockwave, Loki-এর illusion, Doctor Strange-এর portal, Spider-Man-এর web, Black Panther-এর kinetic claws, Vibranium core এবং Witcher-এর sword/Sign। এটি character portrait photo নয়: মূল চরিত্রের চেনা রঙ ও motif ব্যবহার করে তৈরি original vector emblem art। Galaxy landscape background আগের New Tab project থেকে এসেছে।
+দশটি galaxy scene: Thor, Iron Man, Captain America, Hulk, Loki, Doctor Strange, Spider-Man, Black Panther, Vibranium এবং The Witcher। প্রতি ৫ সেকেন্ডে scene বদলায়; ধীরে zoom, fade ও তারার animation আছে। এতে character portrait বা power-effect overlay নেই। ছবিগুলো আগের Galaxy New Tab-এর মহাকাশের দৃশ্য; প্রতিটি দৃশ্যের সঙ্গে চরিত্রের নাম দেখানো হয়।
 
 ## Chrome New Tab
 
@@ -23,6 +23,6 @@ Google, Bing বা DuckDuckGo-তে search result খুললে নিচে
 
 Lively-তে fullscreen application চললে wallpaper pause করার option আছে। Remove করতে Lively-তে অন্য wallpaper বেছে নিন। Browser New Tab-এর জন্য Chrome Extensions থেকে extension off করুন। Animation Windows lock screen-এ চলে না।
 
-ছবির জায়গায় আপনার নিজের portrait/photos বসাতে চাইলে `scenes/01-thor.jpg` থেকে `scenes/10-witcher.jpg` পর্যন্ত একই নাম রেখে replace করতে পারেন; 16:9 widescreen ছবি ভালো দেখাবে। SVG emblem-গুলোও একই base name দিয়ে বদলানো যায়।
+ছবির জায়গায় আপনার নিজের portrait/photos বসাতে চাইলে `scenes/01-thor.jpg` থেকে `scenes/10-witcher.jpg` পর্যন্ত একই নাম রেখে replace করতে পারেন; 16:9 widescreen ছবি ভালো দেখাবে। 
 
 Search result page নির্বাচিত engine-এর নিজস্ব page-এ খুলবে। এই extension শুধু New Tab-এর search interface সাজায়; Google/Bing-এর result page-এর style বদলায় না।

@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Masum Avenger Galaxy New Tab",
   "description": "Rotating galaxy New Tab, futuristic search console, results overlay, and live wallpaper.",
-  "version": "1.2.1",
+  "version": "1.2.3",
   "permissions": ["bookmarks"],
   "chrome_url_overrides": {
     "newtab": "newtab.html"

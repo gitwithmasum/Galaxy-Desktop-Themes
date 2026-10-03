@@ -1,0 +1,30 @@
+{
+  "manifest_version": 3,
+  "version": "2.0.0",
+  "name": "Masum Galaxy Neon — Chrome Theme",
+  "description": "Deep space tab strip and crisp cyan-violet toolbar for Avenger Galaxy New Tab.",
+  "theme": {
+    "images": {
+      "theme_frame": "images/frame.png",
+      "theme_toolbar": "images/toolbar.png"
+    },
+    "colors": {
+      "frame": [9, 14, 36],
+      "frame_inactive": [5, 9, 24],
+      "toolbar": [9, 20, 42],
+      "tab_text": [240, 250, 255],
+      "tab_background_text": [166, 192, 226],
+      "tab_background_text_inactive": [126, 149, 179],
+      "bookmark_text": [210, 232, 250],
+      "omnibox_background": [5, 13, 30],
+      "omnibox_text": [239, 249, 255],
+      "button_background": [17, 40, 67],
+      "ntp_background": [3, 6, 18],
+      "ntp_text": [224, 245, 255],
+      "ntp_link": [93, 218, 255]
+    },
+    "tints": {
+      "buttons": [-1, -1, 0.82]
+    }
+  }
+}

@@ -9,8 +9,9 @@
 3. আগে ব্যবহার করা Galaxy New Tab extension-টি **off** বা **Remove** করুন; একসঙ্গে দুটি new-tab override সক্রিয় রাখা যাবে না।
 4. **Load unpacked** চাপুন এবং `manifest.json` থাকা `avenger-galaxy` folder বেছে নিন।
 5. Chrome bookmark access চাইলে **Allow** দিন। নতুন tab-এর **Search Console**-এ **Galaxy Library** চাপলে app-style bookmark grid খুলবে। Folder tile খুলে ভিতরের bookmark দেখতে পারবেন; ওপরের search সব folder-এর bookmark খুঁজবে। `Esc` বা বাইরে click করলে বন্ধ হবে। Bookmark tile click করলে বর্তমান tab-এ site খুলবে; Ctrl/Shift দিয়ে click করলে নতুন tab-এ খুলবে। আপনার bookmark Chrome-এই থাকে।
-6. নতুন tab খুলুন। Futuristic Search Console-এ লিখে **Enter** চাপুন। Google, Bing বা DuckDuckGo button দিয়ে engine বেছে নিতে পারবেন। পছন্দের engine browser-এ মনে থাকবে।
-7. Keyboard থেকে `/` চাপলে search focus হবে; search-এর শুরুতে `/g`, `/b`, `/d` দিলে ঐ একবারের জন্য যথাক্রমে Google, Bing, DuckDuckGo ব্যবহার হবে। যেমন `/b iron man`। Voice icon দেখা গেলে click করে browser-কে microphone permission দিয়ে কথা বলতে পারবেন। Voice recognition Chrome-এর service ব্যবহার করতে পারে; sensitive কথা বলবেন না।
+6. Search Console-এ **Galaxy Library**-এর পাশে **TAB GROUPS** চাপলে Chrome-এ বর্তমানে খোলা tab groups-এর রঙিন tiles দেখবেন। একটি group খুলে তার tab বেছে নিলে সেই tab-এ চলে যাবে। Search-এ group বা tab-এর নাম খুঁজতে পারবেন। বন্ধ অবস্থায় শুধু saved থাকা groups Chrome extension API-তে পাওয়া যায় না; group খুললে এখানে দেখা যাবে। নতুন `tabGroups` ও `tabs` permission চাইলে অনুমতি দিন।
+7. নতুন tab খুলুন। Futuristic Search Console-এ লিখে **Enter** চাপুন। Google, Bing বা DuckDuckGo button দিয়ে engine বেছে নিতে পারবেন। পছন্দের engine browser-এ মনে থাকবে।
+8. Keyboard থেকে `/` চাপলে search focus হবে; search-এর শুরুতে `/g`, `/b`, `/d` দিলে ঐ একবারের জন্য যথাক্রমে Google, Bing, DuckDuckGo ব্যবহার হবে। যেমন `/b iron man`। Voice icon দেখা গেলে click করে browser-কে microphone permission দিয়ে কথা বলতে পারবেন। Voice recognition Chrome-এর service ব্যবহার করতে পারে; sensitive কথা বলবেন না।
 
 ## Search result tab
 

@@ -90,7 +90,7 @@
     try {
       const tree = await chrome.bookmarks.getTree();
       nodes.clear(); root = tree[0]; index(root);
-      current = nodes.get(current?.id) || root;
+      current = nodes.get(current?.id) || root.children?.find(node => !node.url && node.children?.length) || root;
       render();
     } catch (error) { count.textContent = 'COULD NOT LOAD BOOKMARKS'; grid.textContent = 'Reload the extension and allow bookmark access.'; }
   }
